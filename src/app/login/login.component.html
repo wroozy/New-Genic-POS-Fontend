@@ -1,0 +1,29 @@
+<section class="main">
+  <div class="main-wrapper">
+    <div class="row content">
+      <h3 class="signin-text-mb-new">NEWGENIC COMPUTER</h3>
+      <div class="col-md-8 mt-4">
+        <img width="100%" src="../../assets/undraw_Code_thinking_re_gka2.png" alt="">
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="login-form">
+          <form [formGroup]="formValue" (ngSubmit)="postLoginDetails()">
+            <div class="form-group">
+              <label for="loginUsername" class="form-label">Username</label>
+              <input type="text" class="form-control" id="loginUsername" formControlName="username" required autofocus>
+            </div>
+            <div class="form-group">
+              <label for="loginPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="loginPassword" formControlName="password" required minlength="6">
+            </div>
+
+            <button [disabled]="!formValue.controls['username'].valid || !formValue.controls['password'].valid" type="submit" class="btn mt-4">Login
+              <i class="fas fa-sign-in-alt"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+

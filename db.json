@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "supplierName": "Pavithara",
+      "address": "galle",
+      "phoneNo": "0712492277",
+      "email": "tharindu0414@gmail.",
+      "registrationNo": "R1234"
+    },
+    {
+      "id": 2,
+      "supplierName": "KAlana",
+      "address": "galle",
+      "phoneNo": "0712492277",
+      "email": "tharindu0414@gmail.com",
+      "registrationNo": "12345"
+    },
+    {
+      "id": 3,
+      "supplierName": "sadaru",
+      "address": "labuduwa",
+      "phoneNo": "0712492277",
+      "email": "tharindu0414@gmail.com",
+      "registrationNo": "12345"
+    },
+    {
+      "id": 4,
+      "supplierName": "tharindu",
+      "address": "galle",
+      "phoneNo": "0712492277",
+      "email": "tharindu0414@gmail.com",
+      "registrationNo": "R1234"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
